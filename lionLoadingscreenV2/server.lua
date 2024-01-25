@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
                 local rv = json.decode(res)
                 if rv.version ~= v.version then
                     print(([[
-_      _               _____                 _                                  _   
+ _      _               _____                 _                                  _   
 | |    (_)             |  __ \               | |                                | |  
 | |     _  ___  _ __   | |  | | _____   _____| | ___  _ __  _ __ ___   ___ _ __ | |_ 
 | |    | |/ _ \| '_ \  | |  | |/ _ \ \ / / _ \ |/ _ \| '_ \| '_ ` _ \ / _ \ '_ \| __|

@@ -22,7 +22,7 @@ body {
 
 .title {
     font-family: "NanumGothic";
-    color: purple;
+    color: #008efd;
     display: inline-block;
 }
 
@@ -49,7 +49,7 @@ body {
 .pressspace {
     font-family: "NanumGothic";
     display: inline-block;
-    color: purple;
+    color: #008efd;
 }
 
 
