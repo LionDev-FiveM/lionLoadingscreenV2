@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="all" href="style.css">
+    <title>zvLoadingscreenV2</title>
+</head>
+<body>
+    <audio id="myAudio" src="zvcodinglsv2.mp3" autoplay hidden="true" loop="true"></audio>
+
+    <div class="titlepos">
+        <div class="title">ZV</div><div class="titlebe">CODING</div>
+    </div>
+    <div class="presspos">
+        <div class="press">Press</div> <div class="pressspace"><b>SPACE</b></div> <div class="press">to stop/start the music</div>
+    </div>
+    <div class="discord-rules">
+        <div class="discordrules">
+            <div class="boxtitle">Changelogs</div>
+            <div class="boxtext">
+                <p><b>・02-02-23 | New HUD</b>
+                <p><b>・02-04-23 | Firejob and policejob update</b>
+                <p><b>・02-06-23 | Casino update</b>
+                <p><b>・02-10-23 | Its changelog number 4</b>
+                <p><b>・02-11-23 | Its changelog number 5</b>
+                <p><b>・02-12-23 | Its changelog number 6</b>
+                <p><b>・02-13-23 | Its changelog number 7</b>
+                <p><b>・02-14-23 | Its changelog number 8</b>
+                <p><b>・02-15-23 | Its changelog number 9</b>
+            </div>
+        </div>
+        <div class="serverrules">
+            <div class="boxtitle">Most important rules</div>
+            <div class="boxtext">
+                <p><b>・RDM | Random Deathmatch</b>
+                <p><b>・VDM | Vehicle Deathmatch</b>
+                <p><b>・Meta Gaming | Calling of Discord</b>
+                <p><b>・Power RP | Give someone no way out</b>
+                <p><b>・Rule | Its rule number 5</b>
+                <p><b>・Rule | Its rule number 6</b>
+                <p><b>・Rule | Its rule number 7</b>
+                <p><b>・Rule | Its rule number 8</b>
+                <p><b>・Rule | Its rule number 9</b>
+            </div>
+        </div>
+    </div>
+    <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    <script>
+        var play = true;
+
+myAudio.volume = 0.5;
+
+function onKeyDown(event) {
+    switch (event.keyCode) {
+        case 32: //SpaceBar                    
+            if (play) {
+                myAudio.pause();
+                play = false;
+            } else {
+                myAudio.play();
+                play = true;
+            }
+            break;
+        }
+    return false;
+}
+
+window.addEventListener("keydown", onKeyDown, false);
+    </script>
+</body>
+</html>
