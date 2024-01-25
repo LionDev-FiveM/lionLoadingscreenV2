@@ -1,19 +1,18 @@
-# zvKeyboardLayout
+[lionLoadingscreenV2]
 
-### Features
+[Features]
 - Changelogs
 - Important Rules
 - All editable
 - open source
 
-#### Installation
+[Installation]
 1. Drag & Drop the Script of your server
 2. Open your Server.cfg / CFG Editor in TxAdmin
-3. Add "ensure zvKeyboardLayout" in your cfg
+3. Add "ensure lionLoadingscreenV2" in your cfg
 4. Go to index.html.lua
-5. Here you can Add/Edit custom Keys and Text
-6. In client.lua you can edit the command
-7. Enjoy it!
+5. Here you can edit all
+6. Enjoy it!
 
-##### Support
-Discord: https://dsc.gg/zvcoding
+[Support]
+Discord: https://dsc.gg/lion-dev
